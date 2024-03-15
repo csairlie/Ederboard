@@ -14,9 +14,8 @@
 ## 💾 Installation
 - Install edapi from [pip](https://pypi.org/project/edapi/)
 - [Retrieve your Ed Discussion API Key](https://edstem.org/us/settings/api-tokens)
-- To be updated...
+- Run main.py to start.
 
 ## 👀 Coming soon...
 - Support for endorsed comment/answer usernames
-- Creating and updating leaderboard thread on Ed Discussions
-- Support for mulitple classes
+- Support for realtime local database for leaderboard querying
