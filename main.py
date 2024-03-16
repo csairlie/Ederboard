@@ -8,9 +8,8 @@ ed = EdAPI()
 
 def main() -> None:
     print_logo()
-    ed.login()  # Login with Ed API
     init_env(ed)  # Initialize .env file
-    
+   
     while True:
         choice: int = print_menu()
 

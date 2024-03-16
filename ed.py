@@ -55,7 +55,7 @@ def update_ed_thread(ed_obj, course_id):
         parameters = create_leaderboard(ed, course_id, return_str=False)
         thread_id = find_leaderboard(ed, course_id) 
        
-       try:
+        try:
             ed.edit_thread(thread_id, parameters)
         except:
             print("Error updating leaderboard.\n")

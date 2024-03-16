@@ -9,6 +9,7 @@ def check_env(ed) -> None:
     if 'ED_API_TOKEN' not in env_values:
         api_token = input("Enter your Ed API Token: ")
         set_key('.env', 'ED_API_TOKEN', api_token)
+        ed.login()
 
     if 'COURSE_IDS' not in env_values or 'COURSE_CODES' not in env_values:
         course_ids, course_codes = get_courses(ed)
